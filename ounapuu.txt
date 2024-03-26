@@ -1,0 +1,13 @@
+%                                                                               
+opilane@klassb306-20 ounapuu % pwd
+/Users/opilane/Desktop/ounapuu
+opilane@klassb306-20 ounapuu % ls
+readme.md       terminal
+opilane@klassb306-20 ounapuu % cd ~/Desktop
+opilane@klassb306-20 Desktop % mkdir ounapuu
+mkdir: ounapuu: File exists
+opilane@klassb306-20 Desktop % cd ounapuu
+opilane@klassb306-20 ounapuu % touch ounapuu.txt
+opilane@klassb306-20 ounapuu % 
+
+Ei saanud ilma Solveigi abita midagi aru. Kõigest on veel keeruline aru saada. 

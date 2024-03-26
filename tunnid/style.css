@@ -1,0 +1,60 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+main {
+    background-color: aquamarine;
+    max-width: 56rem;
+    width: 100%;
+    padding: 1rem;
+}
+.hero {
+    background-color: blue;
+    width: 100%;
+    flex: 1;
+}
+.card-row {
+    background-color: aqua;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+.card {
+    min-width: 18rem;
+    flex: 1;
+    padding: 1rem;
+}
+
+/* reset */
+body {
+    margin: 0;
+}
+html {
+    height: 100%;
+}
+body {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    box-sizing: border-box;
+}
+h1,
+h2,
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+main {
+    width: 100%;
+    max-width: 56rem;
+    height: 100%;
+    max-height: 40rem;
+}
+.card {
+    width: 50%;
+}
