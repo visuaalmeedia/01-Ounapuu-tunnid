@@ -1,3 +1,29 @@
 header {
+    background-color: aqua;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    image-rendering: auto;
+}
+body {
+    display: flex;
+    align-items: center;
+}
+main {
+    background-color: blue;
+    max-width: 56rem;
+    width: 100%;
+}
+.card-row {
+    background-color: bisque;
+    display: flex;
+    gap: 1rem;
+}
+.card {
+    min-width: 18rem;
+    flex: 1;
+    padding: 1rem;
+}
+html {
+    height: 100%;
 }

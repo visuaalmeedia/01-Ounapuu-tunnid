@@ -16,4 +16,6 @@ Ega eriti veel sellest koodimisest ei mõista. Kõik on liigselt tehniline taip.
 -   huvi - 0
 -   arusaamine - 3
 
-# LÕpp
+# LÕpp 02.04
+
+Vaikselt hakkan midagi aru saama.
