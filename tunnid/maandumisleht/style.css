@@ -1,32 +1,37 @@
 header {
-    background-color: aqua;
+    background-image: url(ulemine_ml.jpg);
+    background-size: 100%;
+    background-position-y: -6%;
     display: flex;
-    justify-content: center;
     align-items: center;
-    image-rendering: auto;
+    justify-content: space-between;
+}
+img {
+    width: 100%;
+    aspect-ratio: 3 / 2;
 }
 body {
     display: flex;
     align-items: center;
     justify-content: center;
     box-sizing: border-box;
-    background-color: gray;
+    background-color: gray
 }
 main {
-    background-color: antiquewhite;
+    background-color: lightskyblue;
     max-width: 56rem;
     width: 100%;
     padding: 1rem;
 }
 .card-row {
-    background-color: bisque;
+    background-color: lightgray;
     display: flex;
     gap: 1rem;
     flex-wrap: wrap;
 }
 .card {
     background-color: antiquewhite;
-    min-width: 18rem;
+    min-width: 16rem;
     flex: 1;
     padding: 1rem;
     width: 50%;
@@ -35,8 +40,28 @@ html {
     height: 100%;
 }
 h2 {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: irish 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: 400;
+    color: #17C7ED;
     font-style: normal;
     display: flex;
+}
+.pilt {
+    display: block;
+    margin-top: auto;
+    width: 140px;
+    height: 140px;
+    border-radius: 100px;
+}
+h1 {
+    font-family: irish 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    color: blue;
+    font-style: normal;
+    display: flex;
+}
+footer img {
+    aspect-ratio: 4 / 1;
+    object-fit: cover;
+    object-position: 60% 21%;
 }
